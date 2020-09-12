@@ -9,7 +9,7 @@
   }
 
   .mdl-layout__content {
-    background: #eaefff;
+    background: hsl(226, 100%, 96%);
   }
 
   .mdl-layout__drawer.is-visible {
