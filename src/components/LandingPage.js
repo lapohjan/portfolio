@@ -13,7 +13,14 @@ export default function LandingPage() {
                     className="lake" style={{height:'250px', paddingTop:'5em'}}
                     />
                     <div className="banner-text">
-                        <h1>Hi! I'm Laura</h1>
+                        <h1>Laura Pohjanpalo</h1>
+
+                        <hr/>
+
+                        <p>HTML/CSS | JavaScript | React | Node | Express | MongoDB </p>
+                    <div className="social-links">
+                        
+                    </div>
                     </div>
                 </Cell>
             </Grid>
