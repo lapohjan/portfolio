@@ -1,0 +1,25 @@
+.header-color {
+    background: #833ab4;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  
+  .mdl-layout__header-row {
+    background: #3f0064;
+  }
+
+  .mdl-layout__content {
+    background: #eaefff;
+  }
+
+  .mdl-layout__drawer.is-visible {
+    background: #f7f3ff;
+  }
+
+  .mdl-navigation__link:hover {
+    background: #e9d0fd !important;
+  }
+
+  .toplink:hover {
+    background:  #3f0064 !important;
+  };

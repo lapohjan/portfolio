@@ -8,10 +8,10 @@ function App() {
     <Layout>
         <Header title="Title" scroll>
             <Navigation>
-                <a href="/">Link</a>
-                <a href="/">Link</a>
-                <a href="/">Link</a>
-                <a href="/">Link</a>
+                <a href="/" className="toplink">Link</a>
+                <a href="/" className="toplink">Link</a>
+                <a href="/" className="toplink">Link</a>
+                <a href="/" className="toplink">Link</a>
             </Navigation>
         </Header>
         <Drawer title="Title">
