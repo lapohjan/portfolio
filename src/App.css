@@ -16,9 +16,31 @@
   height: 100%;
 }
 
-/* .mdl-layout__content {
-  background: hsl(226, 100%, 96%);
+.mdl-layout__content {
+  background: #5614B0;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #dbaa5c, #5614B0#5614B0);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #dbaa5c, #5614B0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+  /* background-image: url(https://source.unsplash.com/YhM7-myr4qM); */
+  /* background-image: url(https://source.unsplash.com/xw69fz33sKg); */
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.projects-grid {
+  display: flex;
+}
+
+/* .mdl-card__actions {
+  display: flex;
+  justify-content: space-evenly;
 } */
+
+.mdl-card--border {
+  display: flex;
+  justify-content: space-evenly;
+}
 
 .mdl-layout__drawer.is-visible {
   background: #f7f3ff;
@@ -38,6 +60,8 @@
   padding-top:5em;
   border-radius: 50%;
 }
+
+
 
 .banner-text {
   background-color: rgb(0, 0, 0, 0.8);
