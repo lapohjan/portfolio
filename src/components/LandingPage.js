@@ -10,8 +10,10 @@ export default function LandingPage() {
                     <img
                     // src="https://source.unsplash.com/xw69fz33sKg"
                     // alt="lake view at night"
-                    src="../../laura.jpg"
-                    alt="profile img"
+                    // src="../../laura.jpg"
+                    src="https://cdn2.iconfinder.com/data/icons/female-avatars-vol-1/256/female-portrait-avatar-profile-woman-sporty-brunette-2-512.png"
+                    alt="avatar pic of a brunette woman"
+                    // alt="profile img"
                     className="profile_pic" 
                     style={{height:'200px', borderRadius: '50%', marginTop:'5em'}}
                     />
