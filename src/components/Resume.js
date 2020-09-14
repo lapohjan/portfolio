@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Grid, Cell } from 'react-mdl'
 import Education from './Education'
+import Experience from './Experience'
 
 class Resume extends Component {
     render() {
@@ -57,7 +58,50 @@ class Resume extends Component {
                         />
                         <hr style={{borderTop:'3px solid #e22947'}}/>
                         
-                       
+                        <h2>Experience</h2>
+
+                        <Experience
+                            startYear={2008}
+                            endYear={'present'}
+                            jobName="Etelä-Suomen Media"
+                            jobDescription="Sub-editor, journalist. Daily tasks: Writing, editing, page layout, photography, web editing, publishing to company's social media sites."
+                        />
+                        <Experience
+                            startYear={2007}
+                            endYear={2008}
+                            jobName="Kouvolan Sanomat"
+                            jobDescription="Journalist. Tasks: Writing, Sub-editing, Photography."
+                        />
+                        <Experience
+                            startYear={'Jun 2007'}
+                            endYear={'Aug 2007'}
+                            jobName="Turun Sanomat"
+                            jobDescription="Journalist"
+                        />
+                             <Experience
+                            startYear={'Oct 2006'}
+                            endYear={'Mar 2007'}
+                            jobName="Handelsbanken"
+                            jobDescription="archivist, office assistant"
+                        />
+                         <Experience
+                            startYear={'Jun 2006'}
+                            endYear={'Aug 2007'}
+                            jobName="Länsi-Savo"
+                            jobDescription="Journalist"
+                        />
+                            <Experience
+                            startYear={'Oct 2005'}
+                            endYear={'Dec 2005'}
+                            jobName="Select Appointments"
+                            jobDescription="HR Trainee"
+                        />
+                            <Experience
+                            startYear={'May 2004'}
+                            endYear={'Sep 2004'}
+                            jobName="Opetushallitus"
+                            jobDescription="Trainee"
+                        />
 
                     </Cell>
                 </Grid>
