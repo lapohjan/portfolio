@@ -1,5 +1,5 @@
 import React from 'react'
-import { Grid, Cell } from 'react-mdl';
+import { Grid, Cell, List, ListItem } from 'react-mdl';
 
 export default function Contact() {
     return (
@@ -18,7 +18,17 @@ export default function Contact() {
                 <Cell col={6}>
                     <h2>Contact Me</h2>
                     <hr/>
-                 
+                    <List>
+                        <ListItem>
+                            <ListItemContent icon="person">Bryan Cranston</ListItemContent>
+                        </ListItem>
+                        <ListItem>
+                            <ListItemContent icon="person">Aaron Paul</ListItemContent>
+                        </ListItem>
+                        <ListItem>
+                            <ListItemContent icon="person">Bob Odenkirk</ListItemContent>
+                        </ListItem>
+                    </List>   
                 </Cell>
             </Grid>
         </div>
