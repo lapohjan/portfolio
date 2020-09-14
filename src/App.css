@@ -27,8 +27,11 @@
   overflow: auto;
 }
 
+
 .projects-grid {
   display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .contact-body {
@@ -42,9 +45,7 @@
   overflow-x: auto;
 }
 
-.mdl-cell--6-col {
-  /* background: white; */
-}
+
 
 .contact-grid {
   text-align: center;
@@ -85,11 +86,6 @@ ul.mdl-list {
   padding-right: 1.5rem;
   
 }
-
-/* .mdl-card__actions {
-  display: flex;
-  justify-content: space-evenly;
-} */
 
 .mdl-card--border {
   display: flex;

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu } from 'react-mdl';
+import { Tabs, Tab, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu } from 'react-mdl';
 
 
 class Projects extends Component {
@@ -14,7 +14,7 @@ class Projects extends Component {
       return(
         <div className="projects-grid">
           {/* Project 1 */}
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto', borderRadius: '10px'}}>
+          <Card shadow={5} style={{minWidth: '300px', margin: '2rem', borderRadius: '10px'}}>
             <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #1</CardTitle>
             <CardText>
               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
@@ -28,7 +28,7 @@ class Projects extends Component {
           </Card>
 
           {/* Project 2 */}
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto', borderRadius: '10px'}}>
+          <Card shadow={5} style={{minWidth: '300px', margin: '2rem', borderRadius: '10px'}}>
             <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #2</CardTitle>
             <CardText>
               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
@@ -42,7 +42,7 @@ class Projects extends Component {
           </Card>
 
           {/* Project 3 */}
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto', borderRadius: '10px'}}>
+          <Card shadow={5} style={{minWidth: '300px', maxWidth: '500px', margin: '2rem', borderRadius: '10px'}}>
             <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #3</CardTitle>
             <CardText>
               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
@@ -86,11 +86,11 @@ class Projects extends Component {
         </Tabs>
 
 
-          <Grid>
+          <div className="myGrid">
             <Cell col={12}>
               <div className="content">{this.toggleCategories()}</div>
             </Cell>
-          </Grid>
+          </div>
 
 
       </div>
