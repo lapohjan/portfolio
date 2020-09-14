@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Grid, Cell } from 'react-mdl'
+import Education from './Education'
 
 class Resume extends Component {
     render() {
@@ -15,7 +16,7 @@ class Resume extends Component {
                             />
                         </div>
                         <h2 style={{paddingTop:'2em'}}>Laura Pohjanpalo</h2>
-                        <h4 style={{color:'grey'}}>Junior Full Stack Developer</h4>
+                        <h4 style={{color:'grey'}}>Full Stack Developer</h4>
                         <hr style={{borderTop:'3px solid #833fb2', width:'50%'}}/>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam animi vitae, molestias quisquam odit velit autem atque non debitis necessitatibus!</p>
                         <hr style={{borderTop:'3px solid #833fb2', width:'50%'}}/>
@@ -29,6 +30,35 @@ class Resume extends Component {
                     </Cell>
                     <Cell className="resume-right-col" col={8}>
                         <h2>Education</h2>
+                        <Education
+                        endYear={'2020 - 2021'}
+                        schoolName="Helsinki Business College"
+                        schoolDescription="A Full Stack Web Developer program. An intensive 1,5-year-program with focus on practical skills in HTML, CSS, JavaScript, React, Node and different kinds of databases. All lectures held in English."
+                        />
+                        <Education
+                        endYear={2005}
+                        schoolName="University of Jyväskylä"
+                        schoolDescription="Master of Arts (Journalism)"
+                        />
+                        <Education
+                        endYear={2003}
+                        schoolName="University of Helsinki"
+                        schoolDescription="The diciplines of Education, Subject studies"
+                        />
+                        <Education
+                        endYear={2003}
+                        schoolName="University of Vaasa"
+                        schoolDescription="Marketing, Basic studies (web-based courses)"
+                        />
+                         <Education
+                        endYear={2000}
+                        schoolName="University of Tampere"
+                        schoolDescription="Social Psychology, Subject studies"
+                        />
+                        <hr style={{borderTop:'3px solid #e22947'}}/>
+                        
+                       
+
                     </Cell>
                 </Grid>
             </div>
