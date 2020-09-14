@@ -1,5 +1,5 @@
 import React from 'react'
-import { Grid, Cell, List, ListItem } from 'react-mdl';
+import { Grid, Cell, List, ListItem, ListItemContent } from 'react-mdl';
 
 export default function Contact() {
     return (
@@ -13,22 +13,35 @@ export default function Contact() {
                         alt="avatar pic of a brunette woman"
                         style={{height:'250px'}}
                     />
-                    <p style={{ width:'75%', margin:'auto', paddingTop:'1em'}}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos eos iusto vel error harum exercitationem tempore distinctio itaque animi quae quis natus est, sit vero incidunt atque architecto officia aliquam eligendi et nostrum? Itaque tenetur deserunt id, excepturi, facere tempore atque, aliquid sunt sequi voluptate laborum vero optio corrupti ratione.</p>
+                    <p style={{ width:'75%', margin:'auto', paddingTop:'1em'}}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos eos iusto vel error harum exercitationem tempore distinctio itaque animi.</p>
                 </Cell>
-                <Cell col={6}>
+                <Cell col={6} style={{background: 'white', borderRadius: '10px'}}>
                     <h2>Contact Me</h2>
                     <hr/>
-                    <List>
-                        <ListItem>
-                            <ListItemContent icon="person">Bryan Cranston</ListItemContent>
-                        </ListItem>
-                        <ListItem>
-                            <ListItemContent icon="person">Aaron Paul</ListItemContent>
-                        </ListItem>
-                        <ListItem>
-                            <ListItemContent icon="person">Bob Odenkirk</ListItemContent>
-                        </ListItem>
-                    </List>   
+                    <div className="contact-list">
+                        <List>
+                            <ListItem>
+                                <ListItemContent style={{fontSize:'calc(15px + .8vw)', fontFamily:'Roboto', fontWeight:'bold', textAlign: 'center', justifyContent: 'center'}}>
+                                    <i className="fa fa-phone-square" aria-hidden="true" style={{paddingBottom: '0.2em'}}/>
+                                    <br/>
+                                    040 413 7477
+                                </ListItemContent>
+                            </ListItem>
+                            <ListItem>
+                                <ListItemContent style={{fontSize:'calc(15px + .8vw)', fontFamily:'Roboto', fontWeight:'bold', textAlign: 'center', justifyContent: 'center'}}>
+                                    <i className="fa fa-envelope" aria-hidden="true" style={{paddingBottom: '0.2em'}}/>
+                                    <br/>
+                                    lauratellervo@gmail.com
+                                </ListItemContent>
+                            </ListItem>
+                            {/* <ListItem>
+                                <ListItemContent style={{fontSize:'2vw', fontFamily:'Roboto', fontWeight:'bold', textAlign: 'center', justifyContent: 'center'}}>
+                                    <i className="fa fa-linkedin-square" aria-hidden="true"/>
+                                    www.linkedin.com/in/laura-pohjanpalo
+                                </ListItemContent>
+                            </ListItem> */}
+                        </List>   
+                    </div>
                 </Cell>
             </Grid>
         </div>
