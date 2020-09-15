@@ -34,10 +34,27 @@
   flex-wrap: wrap;
 }
 
+.resume-grid {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.resume-left-col {
+  max-width: 400px;
+}
+
+.year {
+  font-size: 18px;
+}
+
+
 .resume-right-col {
-  background: #27221F;
-  color: white;
+  background: white;
+  color: black;
   padding: 2em;
+  border-radius: 10px;
+  max-width: 600px;
 }
 
 .contact-body {
@@ -63,10 +80,11 @@
   margin-bottom: 20px;
 }
 
-.contact-grid h2 {
+.contact-grid h3 {
   /* font-family: 'Roboto', sans-serif; */
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: bold;
+  margin-top: 50px;
 }
 
 ul.mdl-list {

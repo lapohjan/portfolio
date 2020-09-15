@@ -6,29 +6,32 @@ export default function Contact() {
         <div className="contact-body">
             <Grid className="contact-grid">
                 <Cell col={6}>
-                    <h2>Laura Pohjanpalo</h2>
+                    <h3>Laura Pohjanpalo</h3>
                     <img
-                    // src="../../laura.jpg" alt="profile img"
-                        src="https://cdn2.iconfinder.com/data/icons/female-avatars-vol-1/256/female-portrait-avatar-profile-woman-sporty-brunette-2-512.png"
-                        alt="avatar pic of a brunette woman"
-                        style={{height:'250px'}}
+                        src="../../laura.jpg"
+                        alt="profile img"
+                        style={{height:'200px', borderRadius: '50%'}}
+                        // src="https://cdn2.iconfinder.com/data/icons/female-avatars-vol-1/256/female-portrait-avatar-profile-woman-sporty-brunette-2-512.png"
+                        // alt="avatar pic of a brunette woman"
+                        // style={{height:'250px'}}
                     />
-                    <p style={{ width:'75%', margin:'auto', paddingTop:'1em'}}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos eos iusto vel error harum exercitationem tempore distinctio itaque animi.</p>
+                    <p style={{ width:'75%', margin:'auto', paddingTop:'1em'}}>
+                        A fresh-from-the-oven full stack developer with a strong background in journalism. Eager to learn more.</p>
                 </Cell>
                 <Cell col={6} style={{background: 'white', borderRadius: '10px'}}>
-                    <h2>Contact Me</h2>
+                    <h3>Contact Me</h3>
                     <hr/>
                     <div className="contact-list">
                         <List>
                             <ListItem>
-                                <ListItemContent style={{fontSize:'calc(15px + .8vw)', fontFamily:'Roboto', fontWeight:'bold', textAlign: 'center', justifyContent: 'center'}}>
+                                <ListItemContent style={{fontSize:'calc(20px + .10vw)', fontFamily:'Roboto', fontWeight:'bold', textAlign: 'center', justifyContent: 'center'}}>
                                     <i className="fa fa-phone-square" aria-hidden="true" style={{paddingBottom: '0.2em'}}/>
                                     <br/>
                                     040 413 7477
                                 </ListItemContent>
                             </ListItem>
                             <ListItem>
-                                <ListItemContent style={{fontSize:'calc(15px + .8vw)', fontFamily:'Roboto', fontWeight:'bold', textAlign: 'center', justifyContent: 'center'}}>
+                                <ListItemContent style={{fontSize:'calc(20px + .10vw)', fontFamily:'Roboto', fontWeight:'bold', textAlign: 'center', justifyContent: 'center'}}>
                                     <i className="fa fa-envelope" aria-hidden="true" style={{paddingBottom: '0.2em'}}/>
                                     <br/>
                                     lauratellervo@gmail.com
