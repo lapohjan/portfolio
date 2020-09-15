@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { Grid, Cell } from 'react-mdl'
 import Education from './Education'
 import Experience from './Experience'
+import Skills from './Skills'
 
 class Resume extends Component {
     render() {
@@ -24,13 +25,113 @@ class Resume extends Component {
                         <hr style={{borderTop:'3px solid #833fb2', width:'95%'}}/>
                         <p>After working as a journalist and sub-editor for over 10 years I craved for new challenges. I was always curious about programming and finally decided to go for it. Now I'm studying in the Full Stack Web Developer program in Helsinki Business College. My studies include JavaScript, React, Node and much more. All lectures are in English. Making things happen just by writing code is amazing. I can't wait to learn more! </p>
                         <hr style={{borderTop:'3px solid #833fb2', width:'95%'}}/>
-                        <h5>Phone</h5>
+                        <h3>Technologies</h3>
+                        <Skills 
+                            skill="HTML5"
+                            progress={90}
+                        />
+                        <Skills 
+                            skill="CSS"
+                            progress={90}
+                        />
+                        <Skills 
+                            skill="React"
+                            progress={80}
+                        />
+                        <Skills 
+                            skill="Redux"
+                            progress={40}
+                        />
+                          <Skills 
+                            skill="JavaScript"
+                            progress={70}
+                        />
+                        <Skills 
+                            skill="Node"
+                            progress={65}
+                        />
+                         <Skills 
+                            skill="Firebase"
+                            progress={50}
+                        />
+                        <Skills 
+                            skill="MongoDB"
+                            progress={25}
+                        />
+                        <Skills 
+                            skill="MariaDB"
+                            progress={20}
+                        />
+                       
+                        <hr style={{borderTop:'3px solid #833fb2', width:'95%'}}/>
+                        <h3>Other Skills</h3>
+                        <Skills 
+                            skill="Scrum"
+                            progress={90}
+                        />
+                        <Skills 
+                            skill="Git and GitHub"
+                            progress={80}
+                        />
+                        <Skills 
+                            skill="UI design and prototyping"
+                            progress={75}
+                        />
+                         <Skills 
+                            skill="Journalism"
+                            progress={100}
+                        />
+                        <Skills 
+                            skill="Page Layout"
+                            progress={90}
+                        />
+                         <Skills 
+                            skill="Photography"
+                            progress={75}
+                        />
+                        <Skills 
+                            skill="Photo Editing"
+                            progress={70}
+                        />
+                        <Skills 
+                            skill="Customer Service Skills"
+                            progress={95}
+                        />
+                         <hr style={{borderTop:'3px solid #833fb2', width:'95%'}}/>
+                        <h3>Language Skills</h3>
+                        <Skills 
+                            skill="Finnish"
+                            progress={100}
+                        />
+                         <Skills 
+                            skill="English"
+                            progress={95}
+                        />
+                         <Skills 
+                            skill="Swedish"
+                            progress={80}
+                        />
+                          <Skills 
+                            skill="French"
+                            progress={60}
+                        />
+                          {/* <Skills 
+                            skill="Japanese"
+                            progress={10}
+                        /> */}
+                        
+                        
+
+
+                        {/* <h5>Phone</h5>
                         <p>040 413 7477</p>
                         <h5>Email</h5>
                         <p>lauratellervo@gmail.com</p>
                         <h5>Web</h5>
-                        <p>www.lauratellervo.fi</p>
+                        <p>www.lauratellervo.fi</p> */}
                         <hr style={{borderTop:'3px solid #833fb2', width:'95%'}}/>
+                        {/* <h4 style={{color:'grey'}}>Skills</h4> */}
+
                     </Cell>
                     <Cell className="resume-right-col" col={8}>
                         <h2>Education</h2>

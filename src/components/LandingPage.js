@@ -8,7 +8,7 @@ export default function LandingPage() {
             <Grid className='landing-grid'>
                 <Cell col={12}>
                     <img
-                    // src="https://source.unsplash.com/xw69fz33sKg"
+                    // <img src="https://source.unsplash.com/xw69fz33sKg"
                     // alt="lake view at night"
                     src="../../laura.jpg"
                     // src="https://cdn2.iconfinder.com/data/icons/female-avatars-vol-1/256/female-portrait-avatar-profile-woman-sporty-brunette-2-512.png"
@@ -19,7 +19,7 @@ export default function LandingPage() {
                     />
                     <div className="banner-text">
                         <h1>Laura Pohjanpalo</h1>
-                        <hr/>
+                        {/* <hr/> */}
                         <p>HTML/CSS | JavaScript | React | Node </p>
                             <div className="social-links">
                                 <a href="https://www.linkedin.com/in/laura-pohjanpalo/" rel="noopener noreferrer" target="_blank">
