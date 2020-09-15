@@ -20,7 +20,7 @@ class Resume extends Component {
                             />
                         </div>
                         <h2 style={{paddingTop:'1em'}}>Laura Pohjanpalo</h2>
-                        <h4 style={{color:'grey'}}>Full Stack Developer</h4>
+                        <h4 style={{color:'grey'}}>Full Stack Web Developer</h4>
                         <hr style={{borderTop:'3px solid #833fb2', width:'95%'}}/>
                         <p>After working as a journalist and sub-editor for over 10 years I craved for new challenges. I was always curious about programming and finally decided to go for it. Now I'm studying in the Full Stack Web Developer program in Helsinki Business College. My studies include JavaScript, React, Node and much more. All lectures are in English. Making things happen just by writing code is amazing. I can't wait to learn more! </p>
                         <hr style={{borderTop:'3px solid #833fb2', width:'95%'}}/>

@@ -9,8 +9,7 @@ class Projects extends Component {
   }
 
   toggleCategories() {
-
-  {/* React projects in tab 1 */}
+  // React projects in tab 1
     if(this.state.activeTab === 0){
       return(
         <div className="projects-grid">
@@ -70,7 +69,7 @@ class Projects extends Component {
         </div>
       )
 
-  {/* Node projects in tab 2 */}
+  // Node projects in tab 2
   }
   else if(this.state.activeTab === 1){
     return(

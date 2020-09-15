@@ -10,6 +10,7 @@ function App() {
     <Layout>
         <Header className="header-color" title="Menu" scroll>
             <Navigation>
+                <Link to="/" className="toplink">Home</Link>
                 <Link to="/resume" className="toplink">Resume</Link>
                 {/* <Link to="/aboutme" className="toplink">About Me</Link> */}
                 <Link to="/projects" className="toplink">Projects</Link>
@@ -18,6 +19,7 @@ function App() {
         </Header>
         <Drawer title="Menu">
             <Navigation>
+            <Link to="/" className="toplink">Home</Link>
             <Link to="/resume">Resume</Link>
             {/* <Link to="/aboutme">About Me</Link> */}
             <Link to="/projects">Projects</Link>

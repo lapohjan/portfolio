@@ -1,13 +1,28 @@
-.header-color {
-  background: #5614B0;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #dbaa5c, #5614B0#5614B0);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #dbaa5c, #5614B0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
-  }
-  
+/* .header-color {
+  background: #5614B0; */
+  /* fallback for old browsers */
+  /* background: -webkit-linear-gradient(to right, #dbaa5c, #5614B0#5614B0);  */
+  /* Chrome 10-25, Safari 5.1-6 */
+  /* background: linear-gradient(to right, #dbaa5c, #5614B0); */
+  /*W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /* } */
+
+.mdl-layout__header-row {
+    background-color: rgb(3, 7, 70);
+}
+
 .landing-grid {
-  background: #5614B0;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #dbaa5c, #5614B0#5614B0);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #dbaa5c, #5614B0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+  background: url(https://source.unsplash.com/xw69fz33sKg);
+  height: 500px;
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+  /* background: #5614B0; */
+  /* fallback for old browsers */
+  /* background: -webkit-linear-gradient(to right, #dbaa5c, #5614B0#5614B0); */
+  /* Chrome 10-25, Safari 5.1-6 */
+  /* background: linear-gradient(to right, #dbaa5c, #5614B0); */
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
   text-align: center;
   position: fixed;
   top: 0;
@@ -41,11 +56,7 @@
 }
 
 .resume-left-col {
-  max-width: 400px;
-}
-
-.year {
-  font-size: 18px;
+  max-width: 800px;
 }
 
 
@@ -54,7 +65,7 @@
   color: black;
   padding: 2em;
   border-radius: 10px;
-  max-width: 600px;
+  max-width: 800px;
 }
 
 .contact-body {
