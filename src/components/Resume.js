@@ -163,13 +163,13 @@ class Resume extends Component {
                             startYear={2008}
                             endYear={'present'}
                             jobName="Etelä-Suomen Media"
-                            jobDescription="Sub-editor, journalist. Writing news and stories, editing other people's texts, taking care of page layout, taking photos, publishing news to company's webpages and social media sites."
+                            jobDescription="Sub-editor, journalist. Writing news stories, editing other people's texts, taking care of the page layout, taking photos, publishing news stories to the company's webpages and social media sites."
                         />
                         <Experience
                             startYear={2007}
                             endYear={2008}
                             jobName="Kouvolan Sanomat"
-                            jobDescription="Journalist. Writing news and stories, sub-editing newspaper pages containing signed articles, taking photos, maintaining the company's website."
+                            jobDescription="Journalist. Writing news stories, sub-editing the newspaper pages containing signed articles, taking photos, maintaining the company's website."
                         />
                         <Experience
                             startYear={'Jun 2007'}
@@ -181,7 +181,7 @@ class Resume extends Component {
                             startYear={'Oct 2006'}
                             endYear={'Mar 2007'}
                             jobName="Handelsbanken"
-                            jobDescription="Archivist, office assistant. Taking care of the bank's debit card contract archive. Ordering office supplies and shipping them forward to remote offices."
+                            jobDescription="Archivist, office assistant. Taking care of the bank's debit card contract archive. Ordering office supplies and sending them to remote offices."
                         />
                          <Experience
                             startYear={'Jun 2006'}
@@ -217,7 +217,7 @@ class Resume extends Component {
                             startYear={'Nov 2001'}
                             endYear={'Dec 2001'}
                             jobName="Stockmann"
-                            jobDescription="Salesperson. Selling small interior decorations Stockmann's Helsinki Centre Department. I have also worked at Stockmann for shorter periods during Christmas and Hullut Päivät sales events."
+                            jobDescription="Salesperson. Selling small interior decorations at Stockmann's Helsinki centre department store. I have also worked at Stockmann for shorter periods during Christmas and Hullut Päivät sales events."
                         />
 
                     </Cell>
