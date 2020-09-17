@@ -35,7 +35,7 @@ class Projects extends Component {
           <Card shadow={5} style={{minWidth: '300px', margin: '2rem', borderRadius: '10px'}}>
             <CardTitle style={{color: '#000000', height: '220px', background: 'url(./socialnetwork.jpg) center / cover'}} >Social Network</CardTitle>
             <CardText>
-              A social network app for messaging. Using React with Redux, Firebase and Materialize. Key features: Firebase Authentication, Firebase database, web page for showing messages and notifications.
+              A social network app for messaging. Using React with Redux, Firebase and Materialize. Key features: Firebase Authentication, Firebase database, message board, new post -form, timestamp and notifications.
             </CardText>
             <CardActions border>
             <a href="https://github.com/lapohjan/social-network" target="__blank">
@@ -53,7 +53,7 @@ class Projects extends Component {
           <Card shadow={5} style={{minWidth: '300px', maxWidth: '500px', margin: '2rem', borderRadius: '10px'}}>
             <CardTitle style={{color: '#fff', height: '220px', background: 'url(./speedgame.jpg) center / cover'}} >Speed Game</CardTitle>
             <CardText>
-              A speed game done with React. Catch the hamster as the speed goes up. Circle backgrounds are changing color when the hamster appers. Includes a custom cursor and some sound effects.
+              A speed game done with React. Catch the hamster as the speed goes up. Score is shown when the game is over. Includes a custom cursor. 
             </CardText>
             <CardActions border>
             <a href="https://github.com/lapohjan/reactjs_sandbox/tree/master/5_task" target="__blank">
@@ -78,7 +78,7 @@ class Projects extends Component {
         <Card shadow={5} style={{minWidth: '300px', margin: '2rem', borderRadius: '10px'}}>
           <CardTitle style={{color: '#000000', height: '220px', background: 'url(./weather.jpg) center / cover'}} >Weather App</CardTitle>
           <CardText>
-          A Node weather app that two different APIs from Mapbox and Weatherstack. Working application deployed to Heroku. A project that I did following The Complete Node.js Developer Course from Udemy.
+          A Node weather app that uses two different APIs from Mapbox and Weatherstack. Working application deployed to Heroku. A project that I did following The Complete Node.js Developer Course from Udemy.
           </CardText>
           <CardActions border>
           <a href="https://github.com/lapohjan/node-weather-website" target="__blank">

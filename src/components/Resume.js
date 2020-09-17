@@ -163,7 +163,7 @@ class Resume extends Component {
                             startYear={2008}
                             endYear={'present'}
                             jobName="Etelä-Suomen Media"
-                            jobDescription="Sub-editor, journalist. Writing news stories, editing other people's texts, taking care of the page layout, taking photos, publishing news stories to the company's webpages and social media sites."
+                            jobDescription="Sub-editor, journalist. Since 2017 I have worked at Aamuposti newspaper as a journalist and sub-editor. Before that I was a sub-editor for Helsingin Uutiset and Vantaan Sanomat. Tasks: Writing news stories, editing texts, taking care of the page layout, taking photos, publishing news stories to the company's webpages and social media sites."
                         />
                         <Experience
                             startYear={2007}
