@@ -28,10 +28,10 @@ export default function LandingPage() {
                                 <a href="https://github.com/lapohjan?tab=repositories" rel="noopener noreferrer" target="_blank">
                                     <i class="fa fa-github-square"  aria-hidden="true" />
                                 </a>
-                                <a href="https://lauratellervo.fi/" rel="noopener noreferrer" target="_blank">
+                                {/* <a href="https://lauratellervo.fi/" rel="noopener noreferrer" target="_blank"> */}
                                     {/* <i class="fas fa-desktop"  aria-hidden="true" /> */}
-                                    <i class="fa fa-home" aria-hidden="true" />
-                                </a>
+                                    {/* <i class="fa fa-home" aria-hidden="true" />
+                                </a> */}
                             </div>
                     </div>
                 </Cell>
